@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="uiDiv">
+
+            <div class="titleDiv">
+                <h1 class="title">Dice Roller</h1>
+                <img class="decorationImage" src="images/dice2.png">
+            </div>
+
+            <div class="controlsDiv">
+                <form id="myForm">
+                    <h3  class="formLabel">Please choose number of faces</h3>    
+                    <input class="inputField" type="text" value="6" name="numberOfFaces">  <!--Number of faces input-->
+             
+
+                    <h3  class="formLabel">You Rolled:</h3>    
+                    <input id="resultBox" name="resultBox" class="inputField" type="text" value="">  <!--Number of faces input-->
+
+                </form>
+            </div>
+
+            <div class="buttonDiv">
+                <button id="rollDiceButton" type="button" onclick="rollDice()" >ROLL!!</button> <!-- Roll button-->
+            </div>
+
+            <div class="resultsDiv">
+                <h3 id="resultsTitle" >Results</h3>
+                <table id="resultsTable">  <!-- Results go here-->
+                    <tr>
+                        <th> Roll Number </th>
+                        <th> # of faces </th>
+                        <th> Result </th>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>

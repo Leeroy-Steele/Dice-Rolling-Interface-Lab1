@@ -1,0 +1,226 @@
+body{
+    background-color: #dca85e;
+    text-align: center;
+    position: relative;
+}
+
+/* When the screen size is small */
+
+.uiDiv{
+    background-color: #f1c83b;
+    width: 100%;
+}
+
+#rollDiceButton:hover{
+
+    width: 90%;
+    height: 200px;
+}
+
+.titleDiv{
+    padding: 20px;
+
+}
+
+.title{
+    display: inline;
+}
+
+.decorationImage{
+    display: inline;
+    width: 50px;
+    top: 10px;
+
+}
+
+/* When the screen size is large */
+
+@media only screen and (min-width: 1000px){
+    .uiDiv{
+        margin: auto;
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 700px){
+.controlsDiv{
+    width: 40%;
+    float: left;
+
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .buttonDiv{
+        float: left;
+        width: 20%;
+        height: 200px;
+        float: left;
+
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .resultsDiv{
+        float: right;
+        width: 40%;
+        
+    }
+}
+
+/* Results table */
+
+#resultsTable{
+    margin: auto;
+
+}
+
+
+.resultsDiv{
+    position: relative;
+    
+}
+
+
+/* Roll button */
+#rollDiceButton{
+    background-color: burlywood;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#rollDiceButton:hover{
+    background-color:  rgb(189, 157, 115);
+    width: 90%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    background-color: black;
+}
+
+.uiDiv{
+    position: absolute;
+    z-index: 2;
+    width: 700px;
+    height: 700px;
+    top: 10px;
+    left: 10px;
+    
+    background-color: bisque;
+
+}
+
+.titleDiv{
+    position: relative;
+    margin: auto;
+
+}
+    
+.title{
+    text-align: center;
+
+}
+
+.controlsDiv{
+    position: relative;
+    padding: 30px;
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+#rollDiceButton{
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    font-size: 40px;
+    top: 30px;
+    right: 30px;
+
+    background-color: aquamarine;
+}
+
+.resultsDiv{
+    position: relative;
+    padding: 30px;
+    width: 220px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+#resultsTable,td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#resultsTitle{
+    text-align: center;
+}
+
+.decorationImage{
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    width: 50px;
+    height: 50px;
+}

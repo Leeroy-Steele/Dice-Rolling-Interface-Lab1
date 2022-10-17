@@ -1,0 +1,17 @@
+Project - Create interface to roll any size dice to get a random number
+
+Client Brief - DevsInc want to support people playing tabletop games from home and require a Dice Generator. The dise faces should be customisable, such as a D6 or a D10 (number of faces)
+
+Functionalities
+1. Ability to change the number of dice faces
+2. A Roll button to generate a random number from the selected dice
+3. A Roll history generated onto a table
+4. A responsive layout thatadapts to different screen sizes
+
+
+Basic Flow :
+1. User lands on home page
+2. User types in number of face for the dice
+3. User presses "Roll button"
+4. User gets result in results table
+
